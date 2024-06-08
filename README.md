@@ -5,7 +5,7 @@
 ## 模型一：VALL-E 
 基于开源代码Amphion训练，训练过程分为两步，首先在Wenetspeech4TTS数据集上进行训练，之后在HQ-Conversations进行微调训练。
 
-模型的权重部分已经在huggface开源
+模型的权重部分已经在[放置在huggface](https://huggingface.co/kxxia/ISCSLP2024_CoVoC_basemodel)
 
 训练过程中，文本输入的方式与原Amphion代码略有不同，具体方式见inference.ipynb
 
@@ -15,7 +15,7 @@
 ## 模型二
 基于fish-speech的开源模型训练，微调了其中的LLAMA 与 vits_decoder
 
-模型权重部分已经在huggface开源
+模型权重部分已经在[放置在huggface](https://huggingface.co/kxxia/ISCSLP2024_CoVoC_basemodel)
 
 训练遵循fish-speech的默认配置
 
